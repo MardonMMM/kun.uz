@@ -1,0 +1,531 @@
+
+  body {
+    margin: 0%;
+    padding: 0%;
+  }
+  ul {
+    padding-left: 0%;
+  }
+  body {
+    font-family: sans-serif;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    color: currentColor;
+    text-decoration: none;
+    /* display: block; */
+  }
+  .container {
+    margin: 0 auto;
+    width: 1330px;
+    font-family: sans-serif;
+  }
+  .date {
+    font-size: 13px;
+    color: #a2a3a4;
+    font-family: Regular;
+    align-content: center;
+  }
+  .date img {
+    width: 13px;
+    /* padding-right: 5px; */
+  }
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    /* margin-left: 30px;////////// */
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .header-item {
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 20px;
+  }
+  .header-right {
+    font-size: 12px;
+    /* margin-right: 10px; */
+    border-radius: 60px;
+    font-family: Regular;
+    box-sizing: border-box;
+    margin-left: 10px;
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+  }
+  .header-right div{
+    border: 1px solid white;
+    /* padding-left: 10px; */
+  }
+  .header div{
+      display: flex;
+      align-items: center;
+  }
+  .header-right div span img {
+      border: 1px solid white;
+      background-color: white;
+      border-radius: 30px;
+      padding:  4px;
+      margin-top: 2px;
+
+  }
+
+  .header .header-right .search{
+      padding: 0px 4px;
+      border-radius: 30px;
+  }
+  /* .header-right div span {
+    border-radius: 260px;
+    padding: 10px 9px 2px 8px;
+    background-color: white;
+   
+  } */
+  .header{
+  margin-right: 50px;       
+}
+/* CITY */
+
+.city ul{
+    display: flex;
+    align-items: center;  
+   margin-top: 20px;
+    background-color: #F0F0F0;
+}
+.city ul li{
+padding: 0px 10px;
+border-left: 1px solid;
+    font-size: 13px;
+}
+.city ul .hudud{
+ 
+    font-weight: 600;
+    color: white;
+    width: 60px;
+    padding: 13px;
+    text-align: center;
+    border-left: none;
+    background-color: rgb(0, 26, 102);
+    border-radius: 0 999px 999px 0px;
+}
+
+
+.news1{
+    margin-top: 20px;
+   background-color: #F0F0F0;
+}
+
+.news1 .news-qur{
+    display: flex;
+
+}
+.news .news1 ul li .date{
+    margin-top: 0px;
+    margin-left: 30px;
+    line-height: 3;
+}
+.news .news1 ul li h3{
+    font-size: 24px;
+    margin-left: 30px;
+}
+.news .news1 ul li p{
+    margin-left: 30px;
+    line-height: 2;
+    margin-right: 30px;
+}
+
+
+
+
+
+/* news2 */
+.news2 .col-6{
+    display: flex;
+}
+.news2 div img{
+    width: 100%;
+    padding: 10px;
+}
+.news2 .row .col-6 .date img {
+    width: 16px;
+  margin-left: 10px;
+    color: rgb(226, 226, 226);
+    padding-right: 10px;
+    
+}.news2 .row .col-6 .col-7 .date{
+   display: flex;
+   align-items: center;
+   padding-left: 5px;
+}
+.news2 .row .col-7 h4{
+    margin-left: 10px;
+    padding: 14px 10px ;
+line-height: 1.5;
+}
+.news2 .row .col-7 hr{
+    margin-left: 20px;
+    width: 90%;
+
+}
+/* .muharrir */
+.muharrir ul li span img{
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+.muharrir{
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.muharrir ul li .border-inc{
+  display: flex;
+  align-items: center;
+}
+.muharrir ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.muharrir ul li a{
+  text-decoration: underline;
+}
+/* .muharrir */
+/* news2 */
+
+.news3 div img{
+  width: 96%;
+  height: 100%;
+    padding: 10px;
+}
+.news3 div .date img{
+    width: 12px;
+}
+.news3 div .date{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+.news3 div h4{
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+
+.right .news4 .border-inc img{
+
+   height: 15px;
+  margin-right: 10px;
+    width: 15px;
+    margin-bottom: 20px;
+}
+.right .news4 .border-inc {
+    display: flex;
+    align-items: center;
+}
+.right .news4 .border-inc h3{
+  align-items: center;
+}
+.right .news4 h3{
+    font-family: sans-serif;
+    margin-bottom: 20px;
+   
+}
+.right .news4 h5{
+  margin-top: 10px;
+font-size: 16px;
+font-weight: 550;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.right .news4 .date{
+  margin-top: 14px;
+    margin-bottom: 25px;
+    
+}
+/* button */
+.button{
+  padding-top: 50px;
+}
+.button a ul li{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 10px;
+ 
+}
+.button a ul{
+  border-left: 2px solid blue;
+  background-color: #F0F0F0;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.button a ul li img{
+  margin-left: 50px;
+  width: 40px;
+align-items: center;
+}
+/* button */
+.dolzarb img{
+  width: 17px;
+  height: 17px;
+  margin-right: 13px;
+  margin-left: 20px;
+}
+.dolzarb span{
+  display: flex;
+  align-items: center;
+}
+
+.news-dolzarb .col-6 img{
+  width: 98%;
+ 
+}
+.news-dolzarb .col-6 h4 {
+margin-top: 15px;
+margin-bottom: 10px;
+}
+.news-dolzarb .col-6 .img1{
+  margin-bottom: 25px;
+}
+/* dolzarb */
+
+/* /inter */
+.inter ul {
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+.inter{
+ padding-bottom: 20px;
+}
+.inter ul li span{
+  margin-right: 1100px;
+  display: flex;
+  align-items: center;
+}
+.inter ul li img{
+  width: 17px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: blue;
+}
+.inter ul li div{
+  display: flex;
+  align-items: center;
+}
+.inter ul li h4{
+  color: blue;
+}
+
+
+.ramka ul li{
+  width: 23%;
+  height: 300px;
+  justify-content: space-evenly;  
+  background-color: rgb(255, 255, 255);
+}
+.ramka ul li a img{
+  width: 250px;
+  margin-right: 15px;
+  position: relative  ;
+  right: 30px;
+  bottom: 20px;
+  box-shadow: 9px 12px 1px  blue;
+}
+.ramka ul li a h4{
+  color: black;
+  padding: 10px;
+  margin-top: 20px;
+}
+/* /inter */
+/* attact */
+.surishtiruv div{
+ display: flex;
+
+}
+.surishtiruv span img{
+   width: 18px;
+   margin-right: 10px;
+   margin-left: 20px;
+
+}
+.surishtiruv span {
+   padding-bottom: 30px;
+  display: flex;
+
+}
+.sur-left h3{
+  position: relative;
+  top: 290px;
+}
+.sur-right{
+  margin-bottom: 40px;
+}
+.sur-right img{
+  width: 80%;
+  padding: 10px;
+}
+.sur-right h3{
+  font-size: 16px;
+}
+.surishtiruv div{
+  display: flex; 
+}
+.sur-left img{
+  width: 100%;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  position: relative;
+  right: 30px;
+  bottom: 70px;
+  box-shadow: 19px 19px 1px white;
+  margin-left: 30px;
+}
+.sur-left{
+  width: 30%;
+  height: 450px;
+  background-color: #F0F0F0;
+}
+/* attact */
+/* maqola */
+.maqola span img{
+  width: 18px;
+  margin-right: 10px;
+}
+.maqola span{
+  display: flex;
+  align-items: center;
+  
+}
+.maqola span .barchasi {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 1100px;
+}
+.maqola span .barchasi a{
+  margin-right: 5px;
+  font-weight: 600;
+  color: rgb(0, 0, 155);
+}
+.maqola .col-4 img{
+  width: 95%;
+  height: 290px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.maqola .col-4{
+  height: 470px;
+  align-items: center;
+}
+.maqola .col-4 h4{
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+.col-4 p{
+  line-height: 1.6;
+}
+
+.logop img{
+  width: 63px;
+}
+.logop{
+  display: flex;
+  align-items: center;
+}
+.logop h3{
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+.logop .barchasi img {
+  width: 20px;
+  
+}
+.logop .barchasi {
+  margin-left: 1000px;
+  display: flex;
+  align-items: center;
+}
+.logop .barchasi a{
+  margin-right: 5px;
+  font-size: 14px;
+  color: blue;
+  font-weight: 600;
+} 
+  /* maqola */
+  /* hamkor */
+  .hamkor{
+    background-color: #F0F0F0;
+    height: 400px;
+    padding-top: 40px;
+  }
+  .hamkor ul li img{
+    width: 210px;
+  }
+  .hamkor ul {
+   display: flex;
+   justify-content: space-between;
+  }
+  .hamkor ul li{
+    border: 1px solid white;
+    padding: 20px;
+    background-color: white;
+  }
+  .hamkor ul li h4{
+    font-size: 16px;
+    padding:10px ;
+  }
+  /* hamkor */
+  /* saythaqida */
+  .sayt-haqida{
+    color: white;
+    background-color: #1C2680;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .sayt-haqida ul {
+    display: flex;
+    align-items: center;
+  }
+  .sayt-haqida ul li{
+    padding-left: 40px;
+    font-weight: 600;
+  }
+  .sayt-haqida  .plus li{
+    margin-left: 500px;
+  }
+  /* saythaqida */
+  footer{
+    background-color: #152080;
+    color: white;
+    padding-bottom: 50px;
+  }
+  footer ul li p{
+    padding-top: 20px;
+    font-size: 13px;
+    padding-left: 40px;
+    line-height: 1.6;
+  }
+   footer ul {
+     display: flex;
+
+   }
+   footer ul .hmk{
+     padding-left: 150px;
+   }
+   footer ul .fot-item{
+     margin-top: 70px;
+     padding-left: 70px;
+   }
